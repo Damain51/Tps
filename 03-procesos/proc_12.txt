@@ -1,0 +1,34 @@
+init(1)-+-at-spi-bus-laun(1546)-+-dbus-daemon(1552)
+        |                       |-{at-spi-bus-laun}(1547)
+        |                       |-{at-spi-bus-laun}(1548)
+        |                       |-{at-spi-bus-laun}(1549)
+        |                       `-{at-spi-bus-laun}(1551)
+        |-at-spi2-registr(1581)-+-{at-spi2-registr}(1583)
+        |                       |-{at-spi2-registr}(1584)
+        |                       `-{at-spi2-registr}(1586)
+        |-dbus-daemon(1542)
+        |-dbus-launch(1541)
+        |-dconf-service(1591)-+-{dconf-service}(1593)
+        |                     |-{dconf-service}(1594)
+        |                     `-{dconf-service}(1595)
+        |-init(165)---bash(166)---proc_12(3026)---proc_12(3027)
+        |-init(2682)---bash(2683)---pstree(3028)
+        |-xdg-desktop-por(1554)-+-{xdg-desktop-por}(1555)
+        |                       |-{xdg-desktop-por}(1556)
+        |                       |-{xdg-desktop-por}(1557)
+        |                       `-{xdg-desktop-por}(1587)
+        |-xdg-desktop-por(1575)-+-{xdg-desktop-por}(1576)
+        |                       |-{xdg-desktop-por}(1577)
+        |                       |-{xdg-desktop-por}(1578)
+        |                       `-{xdg-desktop-por}(1582)
+        |-xdg-permission-(1565)-+-{xdg-permission-}(1566)
+        |                       |-{xdg-permission-}(1567)
+        |                       `-{xdg-permission-}(1569)
+        `-{init}(8)
+
+damian@DESKTOP-JP71RQM:~/Tps/03-procesos$ ps aux | grep proc_12
+damian    3026 95.3  0.0  10812   660 tty1     R    20:27   0:15 ./proc_12
+damian    3027  0.0  0.0      0     0 tty1     Z    20:27   0:00 [proc_12] <defunct>
+damian    3032  0.0  0.0  12064  1308 tty2     S    20:28   0:00 grep --color=auto proc_12
+
+Se puede identificar los procesos zombie y el proceso padre en bucle

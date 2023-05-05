@@ -1,0 +1,33 @@
+init(1)-+-at-spi-bus-laun(1546)-+-dbus-daemon(1552)
+        |                       |-{at-spi-bus-laun}(1547)
+        |                       |-{at-spi-bus-laun}(1548)
+        |                       |-{at-spi-bus-laun}(1549)
+        |                       `-{at-spi-bus-laun}(1551)
+        |-at-spi2-registr(1581)-+-{at-spi2-registr}(1583)
+        |                       |-{at-spi2-registr}(1584)
+        |                       `-{at-spi2-registr}(1586)
+        |-dbus-daemon(1542)
+        |-dbus-launch(1541)
+        |-dconf-service(1591)-+-{dconf-service}(1593)
+        |                     |-{dconf-service}(1594)
+        |                     `-{dconf-service}(1595)
+        |-init(165)---bash(166)---proc_09(2928)---proc_09(2929)
+        |-init(2682)---bash(2683)---pstree(2930)
+        |-xdg-desktop-por(1554)-+-{xdg-desktop-por}(1555)
+        |                       |-{xdg-desktop-por}(1556)
+        |                       |-{xdg-desktop-por}(1557)
+        |                       `-{xdg-desktop-por}(1587)
+        |-xdg-desktop-por(1575)-+-{xdg-desktop-por}(1576)
+        |                       |-{xdg-desktop-por}(1577)
+        |                       |-{xdg-desktop-por}(1578)
+        |                       `-{xdg-desktop-por}(1582)
+        |-xdg-permission-(1565)-+-{xdg-permission-}(1566)
+        |                       |-{xdg-permission-}(1567)
+        |                       `-{xdg-permission-}(1569)
+        `-{init}(8)
+ps aux | grep proc_09
+damian    2928  0.0  0.0  10812   664 tty1     S    20:09   0:00 ./proc_09
+damian    2929  0.0  0.0      0     0 tty1     Z    20:09   0:00 [proc_09] <defunct>
+damian    2932  0.0  0.0  12064  1308 tty2     S    20:09   0:00 grep --color=auto proc_09
+
+El proceso hijo se convirtio en un proceso zombie mientras espera que el padre termine

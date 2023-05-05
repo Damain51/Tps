@@ -1,0 +1,1 @@
+x nunca retorna a su valor original porque al momento de crear un proceso hijo este es una copia identica del padre, osea la variable x que modifica el hijo es una copia de la variable x del padre 

@@ -1,0 +1,1 @@
+En este caso el procesos hijo esta bien definido su contenido y ademas comienza cuando se o indica y no de manera automatica

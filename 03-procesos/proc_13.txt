@@ -1,0 +1,1 @@
+carga un nuevo programa en la memoria del proceso en este caso carga el comando para mostrar el contenido del directorio

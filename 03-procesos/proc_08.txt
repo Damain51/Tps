@@ -1,0 +1,1 @@
+Es una variable compartida entre el padre y el hijo

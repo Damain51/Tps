@@ -1,0 +1,1 @@
+El PID es el numero de identificacion del proceso, El numero PID de padre es menor que el PID del hijo porque este fue creado primero.
