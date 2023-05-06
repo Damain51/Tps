@@ -1,0 +1,11 @@
+dev
+
+El comando head se utiliza para mostrar las primeras líneas de un archivo de texto. 
+Por defecto, muestra las primeras 10 líneas, pero se puede especificar la cantidad de líneas 
+que se desean ver utilizando la opción -n seguida del número de líneas deseadas.
+
+El comando tail se utiliza para mostrar las últimas líneas de un archivo de texto.
+ Por defecto, muestra las últimas 10 líneas, pero se puede especificar la cantidad de líneas
+ que se desean ver utilizando la opción -n seguida del número de líneas deseadas.
+
+El operador >> concatena al fina de un archivo la diferencia con > es que este borra lo que el archivo tiene dentro
