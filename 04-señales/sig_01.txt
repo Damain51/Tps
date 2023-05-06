@@ -1,0 +1,1 @@
+Cuando se termina de manera norma el programa regresa un valor 5 como esta programado en el return y cuando termina de forma abrupta regresa un valor diferente 130

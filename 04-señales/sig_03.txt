@@ -1,0 +1,2 @@
+Tampoco la señal SIGSTP puede ser ignorada por lo que el proceso se paro y paso a segundo plano
+Despues control+c no pudo detenerlo ya que estaba en segundo plano, se lo trajo de vuelta con fg y se lo termino

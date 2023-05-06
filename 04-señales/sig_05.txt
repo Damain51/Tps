@@ -1,0 +1,1 @@
+En este caso si realiza lo que se manda al manejador porque SIGUSR1 son señales del usuario que se pueden ignorar y modificar

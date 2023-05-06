@@ -1,0 +1,1 @@
+El programa termina con la instruccion SIGKILL porque esta no puede ser bloqueada

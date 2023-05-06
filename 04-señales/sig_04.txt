@@ -1,0 +1,1 @@
+Por mas que programemos un manejador para la señal SIGKILL esta siempre termina el proceso, no se puede utilizar un manejador
