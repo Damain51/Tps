@@ -1,0 +1,1 @@
+En este caso no pasa nada porque en el padre esta definido como solo lectura pero puede generar problemas.

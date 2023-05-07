@@ -1,0 +1,1 @@
+Al no bloquearse el programa de lectura se puede ejecutar primero y no leer nada.

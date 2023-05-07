@@ -1,0 +1,2 @@
+El problema es que no estaba programada la parte de recepcion de la fifo por lo que el programa se
+ bloqueaba hasta que alguien lo leyera

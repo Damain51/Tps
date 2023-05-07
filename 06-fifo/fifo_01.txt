@@ -1,0 +1,1 @@
+Lo que se observa es que al principio la FIFO no se cerro al terminar el problema pero con el codigo adecuado si.
