@@ -28,7 +28,7 @@ int main() {
    // system("pstree -p $PPID");
 
     // Establecer un manejador para la señal SIGCHLD
-    //signal(SIGCHLD, sigchld_handler);
+    signal(SIGCHLD, manejador);
 
     // Esperar a la finalización del proceso hijo
     wait(NULL);
