@@ -1,0 +1,2 @@
+El valor de la variable valor total el numero deberia ser 500000, a veces ese nuero es correcto y a veces no, esta pasando que 
+a la hora de la suma no es atomica por lo que un hilo comienxa a hacer una suma mientras otro ya la esta realizando
